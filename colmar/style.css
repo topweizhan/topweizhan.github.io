@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: rgb(133, 133, 226);
+    color: #448ce1;
     text-decoration: none;
 }
 
@@ -29,11 +29,11 @@ a {
 
 
 .bg-color-1 {
-    background-color: #d7d7d7;
+    background-color: #d8d8d8;
 }
 
 .bg-color-2 {
-    background-color: rgb(249, 247, 247);
+    background-color: #f3f5f5;
 }
 
 

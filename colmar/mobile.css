@@ -35,6 +35,9 @@
         padding-bottom: 32px;
     }
     
+    .section-1 .banner-text button {
+        background-color: #9b9b9b;
+    }
  
     .border-container.section-1 {
         display: flex;

@@ -85,12 +85,12 @@
     }
 
     .section-3 {
-        background-color: rgb(249, 247, 247);
+        background-color: #f5f4f5;
     }
 
     .card {
         margin: 0 auto;
-        background-color: rgb(249, 247, 247);
+        background-color: #f5f4f5;
     }
     .card img {
         display: none;

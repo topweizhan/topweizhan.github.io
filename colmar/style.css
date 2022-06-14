@@ -198,7 +198,7 @@ nav ul li {
 }
 
 .card {
-    background-color: white;
+    background-color: #f5f4f5;
     width: 250px;
     margin-bottom: 32px;
     margin-left: 32px;
@@ -233,7 +233,7 @@ footer {
     padding: 16px 24px;
     display: flex;
     align-items: center;
-    border-top: 1px solid lightgray; 
+    border-top: 1px solid #f3f5f5; 
     position: relative;
     top: 48px;
     width: 100%;

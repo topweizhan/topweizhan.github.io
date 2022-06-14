@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     max-width: 1080px;
     margin: auto;
     color: #4a4a4a;
@@ -26,19 +26,10 @@ a {
     color: #448ce1;
 }
 
-.border-container {
-    display: flex;
-    align-items: center;
-    padding: 32px 24px;
-}
 
-
-.bg-color-1 {
-    background-color: #d8d8d8;
-}
-
-.bg-color-2 {
-    background-color: #f3f5f5;
+.section-1, .section-2, .section-3, .section-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* Navigation bar */
@@ -92,66 +83,97 @@ nav ul li {
     padding-left: 16px;
 }
 
+/* Grid declaration */
+
+main .section-1, .section-2, .section-4 {
+    display: grid;
+    grid-template-columns: 24px 6fr 24px 4fr;
+}
 
 /* Section 1: Learn something new everyday */
 
-.section-1 img {
-    width: 60%;
+.section-1 {
+    background-color: #d8d8d8;
 }
 
-.section-1 .banner-text {
-    display: flex;
-    flex-direction: column;
-    margin-left: 24px;
-}
-
-.section-1 .banner-text h1 {
-    margin-top: 24px;
-    font-weight: bold;
-}
-
-.section-1 .banner-text p {
-    margin-top: 24px;
-    font-weight: bold;
-}
-
-.section-1 .banner-text button {
-    color: white;
-    background-color: #4a4a4a;
-    border: unset;
-    padding: 8px 0px;
-    margin-top: 24px;
-}
+    .section-1 .left {
+        grid-column-start: 2;
+        width: 100%;
+    }
+    
+    .section-1 .banner-text {
+        grid-column-start: 4;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 75px;
+    }
+    
+    /* Learn something new everyday */
+    .section-1 .banner-text h1 {
+        font-weight: 700;
+        font-size: 2.3rem;
+    }
+    
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+    .section-1 .banner-text p {
+        margin-top: 24px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    /* Start here */
+    .section-1 .banner-text button {
+        color: white;
+        background-color: #4a4a4a;
+        padding: 8px 0px;
+        margin-top: 24px;
+        border: unset;
+        font-family: 'Noto Sans'; sans-serif;
+    }
 
 /* Section 2: Articles */
 
-.border-container {
-    display: flex;
-    align-items: center;
-    padding: 32px 24px;
+.section-2 {
+    background-color: #f3f5f5;
 }
 
-.left img {
+.section-2 .left  {
+    grid-column-start: 2;
+}
+
+.section-2 .left .border-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-2 .left .border-container img {
+    display: grid;
+    grid-column: 2 / 3;
     width: 100%;
 }
 
-.left .banner-text-2 h2 {
-    margin-top: 32px;
+.section-2 .right {
+    display: grid;
+    grid-column-start: 4;
 }
 
-.left .banner-text-2 p {
+/* It doesn't hurt to keep practicing */
+.section-2 .banner-text-2 h2 {
+    margin-top: 32px;
+    font-weight: 700;
+}
+
+.section-2 .banner-text-2 p {
     margin-top: 24px;
 }
 
-.left {
-    display: block;
-}
-
-.right {
+.section-2 .right {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-left: 24px; 
+    grid-column-start: 4;
     width: 100%;
 }
 
@@ -170,10 +192,12 @@ nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 24px;
 }
 
 .right-col p {
     margin-top: 8px;
+    font-size: 0.8em;
 }
 
 .right-col a {
@@ -183,25 +207,28 @@ nav ul li {
 
 /* Section 3: Start Learning */
 .section-3 {
-    flex-direction: column;
+    background-color: #eaebec;
 }
 
 .section-3 h1 {
-    padding-bottom: 32px;
+    text-align: center;
 }
 
 .section-3 .card-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-left: 72px;
-    padding-right: 72px;
 }
 
 .card {
+    margin-top: 32px;
     background-color: #f5f4f5;
     width: 250px;
-    margin-bottom: 32px;
-    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
 }
 
 .title {
@@ -219,13 +246,39 @@ nav ul li {
 }
 
 /* Section 4: Thesis Exhibit */
-.section-4 h1 {    
-    padding-top: 32px;
-    text-align: center;
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5f5;
 }
 
-.left video {
+.section-4 h1 {    
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.section-4 .border-container {
+    display: grid;
+    grid-template-columns: 24px 6fr 24px 4fr;
+    padding-bottom: 32px;
+}
+
+.section-4 .border-container .left {
+    grid-column-start: 2;
     width: 100%;
+}
+
+.section-4 .border-container .left .banner-text-2 h2 {
+    padding-top: 24px;
+}
+
+.section-4 .border-container .left .banner-text-2 p {
+    padding-top: 8px;
+}
+
+.section-4 .border-container .right {
+    grid-column-start: 4;
 }
 
 /* Footer */
@@ -235,6 +288,7 @@ footer {
     padding-bottom: 24px;
     position: relative;
     top: 48px;
+    background-color: #f3f5f5;
 }
 
 footer .footer-container {

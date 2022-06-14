@@ -1,5 +1,4 @@
 @media screen and (max-width: 768px) {
-
     #nav-desktop {
         display: none
     }
@@ -20,7 +19,6 @@
         position: relative;
         top: 64px;
     }
-
 
     .section-1 .banner-text {
         display: flex;
@@ -119,6 +117,7 @@
     .section-4 .border-container {
         padding: 0;
     }
+
     footer {
         padding-top: 24px;
     }

@@ -178,7 +178,6 @@ nav ul li {
 
 
 /* Section 3: Start Learning */
-
 .section-3 {
     flex-direction: column;
 }
@@ -215,8 +214,8 @@ nav ul li {
 .card img {
     width: 100%;
 }
-/* Section 4: Thesis Exhibit */
 
+/* Section 4: Thesis Exhibit */
 .section-4 h1 {    
     padding-top: 32px;
     text-align: center;

@@ -9,8 +9,9 @@
         align-items: center;
         height: 64px;
         padding-left: 24px;
+        padding-right: 24px;
         position: fixed;
-        z-index: 5;
+        z-index: 1;
         background-color: #FFF;
         width: 100%;
     }

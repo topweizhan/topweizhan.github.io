@@ -49,20 +49,15 @@
         display: none;
     }
 
-    .section-2 .right {
-        margin: 0 auto;
+    .section-2 .right-row {
+        flex-direction: column;      
         padding: 16px;
     }
 
-    .section-2 .right-row {
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .section-2 .right-row img {
-        width: auto;
+        width: 100%;
     }
-    
+  
     .section-2 .right-row:nth-child(1) img {
         content: url("./images/information-orientation-mobile.jpg")
     }
@@ -72,11 +67,11 @@
     }
 
     .section-2 .right-row:nth-child(3) img {
-        content: url("./images/information-orientation-mobile.jpg")
+        content: url("./images/information-guest-lecture-mobile.jpg")
     }
 
-    .section-2 .right-col {
-        padding: 16px 0;
+    .right-col {
+        padding: 16px;
     }
 
     .section-3 {

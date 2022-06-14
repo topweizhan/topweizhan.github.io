@@ -96,41 +96,41 @@ main .section-1, .section-2, .section-4 {
     background-color: #d8d8d8;
 }
 
-    .section-1 .left {
-        grid-column-start: 2;
-        width: 100%;
-    }
+.section-1 .left {
+    grid-column-start: 2;
+    width: 100%;
+}
     
-    .section-1 .banner-text {
-        grid-column-start: 4;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding-right: 75px;
-    }
+.section-1 .banner-text {
+    grid-column-start: 4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 75px;
+}
     
-    /* Learn something new everyday */
-    .section-1 .banner-text h1 {
-        font-weight: 700;
-        font-size: 2.3rem;
-    }
+/* Learn something new everyday */
+.section-1 .banner-text h1 {
+    font-weight: 700;
+    font-size: 2.3rem;
+}
     
-    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
-    .section-1 .banner-text p {
-        margin-top: 24px;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+.section-1 .banner-text p {
+    margin-top: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
     
-    /* Start here */
-    .section-1 .banner-text button {
-        color: white;
-        background-color: #4a4a4a;
-        padding: 8px 0px;
-        margin-top: 24px;
-        border: unset;
-        font-family: 'Noto Sans', sans-serif;
-    }
+/* Start here */
+.section-1 .banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    padding: 8px 0px;
+    margin-top: 24px;
+    border: unset;
+    font-family: 'Noto Sans', sans-serif;
+}
 
 /* Section 2: Articles */
 
@@ -154,10 +154,6 @@ main .section-1, .section-2, .section-4 {
     width: 100%;
 }
 
-.section-2 .right {
-    display: grid;
-    grid-column-start: 4;
-}
 
 /* It doesn't hurt to keep practicing */
 .section-2 .banner-text-2 h2 {

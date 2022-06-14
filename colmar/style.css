@@ -230,15 +230,20 @@ nav ul li {
 }
 
 /* Footer */
-footer {
-    padding: 16px 24px;
-    display: flex;
-    align-items: center;
-    border-top: 1px solid #f3f5f5; 
+footer {    
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
     position: relative;
     top: 48px;
-    width: 100%;
-    z-index: 5;
+}
+
+footer .footer-container {
+    padding-top: 16px;
+    border-top: 1px solid #e0e2e2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {

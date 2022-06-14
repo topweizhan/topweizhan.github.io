@@ -187,14 +187,14 @@ nav ul li {
 }
 
 .section-3 h1 {
-    margin: 32px auto;
+    padding-bottom: 32px;
 }
-
 
 .section-3 .card-container {
     display: flex;
     flex-wrap: wrap;
-    padding:32px 72px;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .card {

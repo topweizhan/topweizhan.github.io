@@ -1,0 +1,259 @@
+/* General Declaration */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(133, 133, 226);
+    text-decoration: none;
+}
+
+.border-container {
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+}
+
+
+.bg-color-1 {
+    background-color: #d7d7d7;
+}
+
+.bg-color-2 {
+    background-color: rgb(249, 247, 247);
+}
+
+
+/* Navigation bar */
+
+#nav-desktop {
+    display: flex;
+    height: 64px;
+    padding: 16px 24px;
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+}
+
+#nav-mobile {
+    display: none;
+}
+
+main {
+    position: relative;
+    top: 64px;
+}
+
+.logo {
+    display: flex;
+}
+
+#ic-logo {
+    height: 32px;
+}
+
+nav p {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    display: flex;
+    font-family: Arial, sans-serif;
+    padding-left: 16px;
+}
+
+
+/* Section 1: Learn something new everyday */
+
+.section-1 img {
+    width: 60%;
+}
+
+.section-1 .banner-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.section-1 .banner-text h1 {
+    margin-top: 24px;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.section-1 .banner-text p {
+    margin-top: 24px;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.section-1 .banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    margin-top: 24px;
+}
+
+/* Section 2: Articles */
+
+.border-container {
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left .banner-text-2 h2 {
+    margin-top: 32px;
+}
+
+.left .banner-text-2 p {
+    margin-top: 24px;
+}
+
+.left {
+    display: block;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 24px; 
+    width: 100%;
+}
+
+.right-row {
+    display: flex;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.right-row img {
+    width: 35%;
+    margin-right: 24px;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-col p {
+    margin-top: 8px;
+}
+
+.right-col a {
+    margin-top: 8px;
+}
+
+
+/* Section 3: Start Learning */
+
+.section-3 {
+    flex-direction: column;
+}
+
+.section-3 h1 {
+    margin: 32px auto;
+}
+
+
+.section-3 .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:32px 72px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+.title {
+    padding: 16px;
+    font-size: 1rem;
+}
+
+.course-detail p {
+    padding: 8px 16px 24px 16px;
+
+}
+
+.card img {
+    width: 100%;
+}
+/* Section 4: Thesis Exhibit */
+
+.section-4 h1 {    
+    padding-top: 32px;
+    text-align: center;
+}
+
+.left video {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray; 
+    position: relative;
+    top: 48px;
+    width: 100%;
+    z-index: 5;
+}
+
+footer p {
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+footer ul li {
+    display: flex;
+    font-family: Arial, sans-serif;
+    padding-left: 16px;
+}

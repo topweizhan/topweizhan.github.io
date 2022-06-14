@@ -1,0 +1,125 @@
+@media screen and (max-width: 768px) {
+
+    #nav-desktop {
+        display: none
+    }
+
+    #nav-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        padding-left: 24px;
+        position: fixed;
+        z-index: 5;
+        background-color: #FFF;
+        width: 100%;
+    }
+
+    main {
+        position: relative;
+        top: 64px;
+    }
+
+
+    .section-1 .banner-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;  
+    }
+
+    .section-1 .banner-text {
+        justify-content: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+    }
+    
+ 
+    .border-container.section-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .section-1 img {
+        width: 100%;
+    }
+
+    .section-2 .left {
+        display: none;
+    }
+
+    .section-2 .right {
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+    .section-2 .right-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-2 .right-row img {
+        width: auto;
+    }
+    
+    .section-2 .right-row:nth-child(1) img {
+        content: url("./images/information-orientation-mobile.jpg")
+    }
+
+    .section-2 .right-row:nth-child(2) img {
+        content: url("./images/information-campus-mobile.jpg")
+    }
+
+    .section-2 .right-row:nth-child(3) img {
+        content: url("./images/information-orientation-mobile.jpg")
+    }
+
+    .section-2 .right-col {
+        padding: 16px 0;
+    }
+
+    .section-3 {
+        background-color: rgb(249, 247, 247);
+    }
+
+    .card {
+        margin: 0 auto;
+        background-color: rgb(249, 247, 247);
+    }
+    .card img {
+        display: none;
+    }
+
+    .card .title {
+        background-color: #d7d7d7;
+        margin-bottom: 8px;
+    }
+    .card .course-detail {
+        display: none;
+    }
+
+    .section-4 .right {
+        display: none;
+    }
+
+    .banner-text-2 {
+        display: none;
+    }
+
+    .section-4 h1 {
+        padding-bottom: 32px;
+    }
+
+    .section-4 .border-container {
+        padding: 0;
+    }
+    footer {
+        padding-top: 24px;
+    }
+    footer ul {
+        display: none;
+    }
+}

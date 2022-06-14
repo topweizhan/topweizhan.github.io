@@ -129,7 +129,7 @@ main .section-1, .section-2, .section-4 {
         padding: 8px 0px;
         margin-top: 24px;
         border: unset;
-        font-family: 'Noto Sans'; sans-serif;
+        font-family: 'Noto Sans', sans-serif;
     }
 
 /* Section 2: Articles */
@@ -313,6 +313,6 @@ footer ul {
 
 footer ul li {
     display: flex;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     padding-left: 16px;
 }

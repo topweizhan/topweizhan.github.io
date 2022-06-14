@@ -120,10 +120,6 @@
         display: none;
     }
 
-    .section-4 {
-        border: 1px red solid;
-    }
-
     .section-4 h1 {
         padding-bottom: 16px;
     }
@@ -131,7 +127,6 @@
     .section-4 .border-container {
         display: block;
         padding-bottom: 24px;
-        border: 1px red solid;
     }
 
     .section-4 .border-container .right {

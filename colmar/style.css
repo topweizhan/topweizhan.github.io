@@ -10,6 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     max-width: 1080px;
     margin: auto;
+    color: #4a4a4a;
 }
 
 .bold {
@@ -35,7 +36,6 @@ a {
 .bg-color-2 {
     background-color: #f3f5f5;
 }
-
 
 /* Navigation bar */
 
@@ -103,13 +103,11 @@ nav ul li {
 
 .section-1 .banner-text h1 {
     margin-top: 24px;
-    color: #4a4a4a;
     font-weight: bold;
 }
 
 .section-1 .banner-text p {
     margin-top: 24px;
-    color: #4a4a4a;
     font-weight: bold;
 }
 
